@@ -9,7 +9,7 @@
 {% if resources.theme == 'dark' %}
 {% set bar_color = '#555454' %}
 {% else %}
-{% set bar_color = '#5cbcaf' %}
+{% set bar_color = '#ffffff' %}
 {% endif %}
 {{ resources.include_css("static/materialize.min.css") }}
 
@@ -61,7 +61,7 @@ a.anchor-link {
       <nav class="top-nav">
         <div class="nav-wrapper">
           <a href="#!" class="brand-logo-container">
-            <object class="brand-logo" type="image/svg+xml" data="{{ resources.include_url("static/voila_logo.svg") }}"></object>
+            <object class="brand-logo" type="image/svg+xml" data="{{ resources.include_url("static/logo.svg") }}"></object>
           </a>
           <ul class="right">
             <li><a href="#"><i class="material-icons" id="kernel-status-icon">radio_button_unchecked</i></a></li>
