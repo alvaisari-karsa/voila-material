@@ -84,14 +84,14 @@ for (dirpath, dirnames, filenames) in os.walk('share/jupyter/'):
 
 
 setup(
-    name='voila-material',
-    version="0.4.3",
-    description="Material design template for voila",
+    name='custom-voila-material',
+    version="0.1.0",
+    description="Custom material design template for voila",
     data_files=data_files,
     include_package_data=True,
-    author='Voila Development Team',
+    author='Voila Development Team and alvaisari-karsa',
     install_requires=['voila>=0.2.1,<0.6.0'],
-    url='https://github.com/voila-dashboards/voila-material',
+    url='https://github.com/alvaisari-karsa/custom-voila-material',
     keywords=[
         'ipython',
         'jupyter',
