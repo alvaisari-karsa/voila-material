@@ -91,7 +91,7 @@ setup(
     include_package_data=True,
     author='Voila Development Team and alvaisari-karsa',
     install_requires=['voila>=0.2.1,<0.6.0'],
-    url='https://github.com/alvaisari-karsa/custom-voila-material',
+    url='https://github.com/alvaisari-karsa/voila-material',
     keywords=[
         'ipython',
         'jupyter',
